@@ -4,7 +4,7 @@ import PricingFeature from "./PricingFeature";
 const PricingCard = ({ price }) => {
   console.log(price);
   return (
-    <div className="border bg-amber-600 rounded-2xl p-4">
+    <div className="flex flex-col border bg-amber-600 rounded-2xl p-4">
       {/* CardHeader */}
       <div>
         <h1 className="text-7xl">{price.name}</h1>
@@ -12,12 +12,13 @@ const PricingCard = ({ price }) => {
       </div>
 
       {/* CardBody */}
-      <div className="bg-amber-400 p-4 rounded-2xl mt-5">
+      <div className="bg-amber-400 p-4 rounded-2xl mt-5 flex-1">
         <p>{price.description}</p>
         {price.features.map((feature, index) => (
           <PricingFeature key={index} feature={feature}></PricingFeature>
         ))}
       </div>
+      <button className="btn w-full mt-4">Subscribe</button>
     </div>
   );
 };

@@ -5,10 +5,10 @@
     "price": "$29/month",
     "description": "Essential access for beginners starting their fitness journey.",
     "features": [
+      "Open gym access during staffed hours",
+      "1 free fitness assessment",
       "Access to gym equipment",
       "Locker room access",
-      "1 free fitness assessment",
-      "Open gym access during staffed hours",
       "Standard support"
     ]
   },
@@ -18,29 +18,30 @@
     "price": "$49/month",
     "description": "Great for regulars who want classes and extra perks.",
     "features": [
-      "Everything in Basic",
-      "Unlimited group classes",
-      "Free Wi-Fi",
       "2 personal training sessions per month",
+      "Priority class reservations",
       "Extended gym hours access",
+      "Unlimited group classes",
+      "Everything in Basic",
       "Nutrition guidance",
-      "Priority class reservations"
+      "Free Wi-Fi"
     ]
   },
   {
     "id": 3,
     "name": "Premium",
     "price": "$79/month",
+    "popular": true,
     "description": "All-inclusive access with personal training and VIP benefits.",
     "features": [
-      "Everything in Standard",
-      "Unlimited personal training",
-      "Access to spa & sauna",
       "Priority booking for classes",
-      "24/7 gym access",
-      "Advanced fitness tracking",
+      "Unlimited personal training",
       "Complimentary workout gear",
-      "Dedicated locker"
+      "Advanced fitness tracking",
+      "Everything in Standard",
+      "Access to spa & sauna",
+      "Dedicated locker",
+      "24/7 gym access"
     ]
   }
 ]
