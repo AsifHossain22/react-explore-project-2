@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "subjects": { "physics": 85, "chemistry": 78, "math": 92 }
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "subjects": { "physics": 72, "chemistry": 65, "math": 70 }
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "subjects": { "physics": 90, "chemistry": 88, "math": 95 }
+  },
+  {
+    "id": 4,
+    "name": "Diana",
+    "subjects": { "physics": 66, "chemistry": 74, "math": 69 }
+  },
+  {
+    "id": 5,
+    "name": "Ethan",
+    "subjects": { "physics": 78, "chemistry": 82, "math": 80 }
+  },
+  {
+    "id": 6,
+    "name": "Fiona",
+    "subjects": { "physics": 92, "chemistry": 89, "math": 94 }
+  },
+  {
+    "id": 7,
+    "name": "George",
+    "subjects": { "physics": 59, "chemistry": 62, "math": 55 }
+  },
+  {
+    "id": 8,
+    "name": "Hannah",
+    "subjects": { "physics": 81, "chemistry": 79, "math": 85 }
+  },
+  {
+    "id": 9,
+    "name": "Ian",
+    "subjects": { "physics": 74, "chemistry": 71, "math": 76 }
+  },
+  {
+    "id": 10,
+    "name": "Julia",
+    "subjects": { "physics": 88, "chemistry": 91, "math": 90 }
+  }
+]
